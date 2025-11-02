@@ -126,3 +126,20 @@
     @apply bg-background text-foreground;
   }
 }
+.form {
+  padding: 40px;
+}
+.form:hover{
+    box-shadow: 0px 0px 32px skyblue;
+    transition: all 1s;
+
+
+}
+.form input{
+  width: 300px;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid gray;
+  border-radius: 8px;
+
+}
